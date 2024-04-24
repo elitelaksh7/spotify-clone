@@ -1,0 +1,135 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background-color: black;
+    color: wheat;
+    height: 60px;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+nav ul li{
+    padding: 20px;
+
+}
+
+.logo{
+    height: 44px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.container{
+    min-height: 70%;
+    width: 75%;
+     background-color: black; 
+    margin:auto;
+    margin-top: 50px;
+    color: rgb(2, 71, 83);
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+     background-image: url('bg.jpg'); 
+    
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position:bottom;
+
+     /* position: relative;  */
+}
+
+.bottom{
+    position: sticky;
+    height: 122x;
+    background-color: black; 
+    bottom: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    padding: 10px;
+}
+
+ #myProgressBar{
+   width: 80%;
+} 
+
+.controls{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding-left: 170px;
+    cursor: pointer;
+}
+
+.buttons{
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.songImage{
+    width:10%;
+    height: 60%;
+    margin-top: 10px;
+}
+
+.songButton{
+    width:80%;
+    height: 30%;
+    cursor: pointer;
+}
+
+.songName{
+    margin:0px;
+    margin:10px;
+}
+
+.songs h2{
+    display: flex;
+    flex-flow: column wrap;
+    /* height: 50px; */
+    height: 400px;
+}
+
+.songBox{
+    display: flex;
+    flex-flow: column wrap; 
+    height: 60px;
+    min-width: 100%;
+    background-color: rgb(248, 252, 252);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.timeandimage{
+    display: flex;
+    flex-direction: row;
+}
+
+ .songInfo{
+position:absolute;
+left:10px;
+} 
+
+.songInfo img{
+    opacity:0;
+    transition: opacity 1s ease-in;
+}
+
+/* #masterSongName {
+   text-align: left;
+} */
